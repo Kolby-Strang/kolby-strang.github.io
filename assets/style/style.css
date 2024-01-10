@@ -1,1 +1,19 @@
-/* BASIC STYLES HERE */
+body {
+  color: #ed603d;
+  background-color: #faecdd;
+  font-family: 'Times New Roman', Times, serif
+}
+
+a {
+  color: #ed603d;
+  text-decoration: none;
+}
+
+.fs-0 {
+  font-size: 50pt;
+}
+
+.hero-img {
+  max-width: 100%;
+  max-height: 100vh;
+}
