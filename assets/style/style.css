@@ -1,8 +1,9 @@
 body {
-  color: #ed603d;
+  color: #ff5100;
   background-color: #faecdd;
   font-family: 'Times New Roman', Times, serif
 }
+
 
 a {
   color: #ed603d;
@@ -14,6 +15,7 @@ a {
   max-height: 80vh;
   border-radius: 10px;
   box-shadow: -5px 5px 9px #9d9d9d;
+  object-fit: cover;
 }
 
 .fs-0 {
