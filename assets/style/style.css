@@ -49,3 +49,13 @@ a {
 .object-fit {
   object-fit: contain;
 }
+
+.hover-raise {
+  transition: ease-in-out .25s;
+  filter: drop-shadow(-5px 5px 9px #9d9d9d);
+}
+
+.hover-raise:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(-5px 5px 9px #696969);
+}
