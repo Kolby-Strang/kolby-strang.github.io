@@ -2,7 +2,10 @@
   <!-- SECTION Hero-->
   <div class="row h-100 py-5">
     <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end order-1 order-md-0">
-      <img class="hero-img" src="assets/img/KolbyStrang-1.jpg" alt="">
+      <img id="lo-hero-img" class="hero-img" src="/assets/img/KolbyStrang_LoD.jpg"
+        alt="Lower quality image of Kolby Strang">
+      <img id="hi-hero-img" onload="app.HomeController.upgradeImgQuality(this)" class="hero-img hidden"
+        src="assets/img/KolbyStrang_HD.jpg" alt="Image of Kolby Strang">
     </div>
     <div
       class="col-12 col-md-6 d-flex justify-content-center justify-content-md-start align-items-center mb-5 order-0 order-md-1">
