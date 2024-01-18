@@ -60,6 +60,32 @@ li {
   }
 }
 
+.row {
+  padding-left: 15em;
+  padding-right: 15em;
+}
+
+@media (max-width: 1300px) {
+  .row {
+    padding-left: 10em;
+    padding-right: 10em;
+  }
+}
+
+@media (max-width: 1000px) {
+  .row {
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+}
+
+@media (max-width: 768px) {
+  .row {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
 .fs-0 {
   font-size: 60pt;
 }
